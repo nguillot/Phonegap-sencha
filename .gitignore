@@ -1,0 +1,9 @@
+# Exclude the build directory
+build/www/*
+ 
+# Exclude swap files
+*.swp
+ 
+# Exclude OS X folder attributes
+.DS_Store
+ 
