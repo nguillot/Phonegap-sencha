@@ -1,5 +1,5 @@
 # Exclude the build directory
-build/www/*
+build/package/www/
  
 # Exclude swap files
 *.swp
