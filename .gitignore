@@ -6,4 +6,28 @@ build/package/www/
  
 # Exclude OS X folder attributes
 .DS_Store
- 
+
+# Exclude specific ios
+*~.nib
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+xcuserdata
+build/package/iOS/build/
+
+
+# Exclude specific Android
+build/package/android/bin
+build/package/android/target
+build/package/android/gen
+
+# Eclude specific Intellj Idea
+*.iml
+*.ipr
+*.iws
+.idea/
+local.properties
